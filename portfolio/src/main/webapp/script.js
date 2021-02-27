@@ -17,7 +17,7 @@
  */
 function addRandomGreeting() {
   const greetings =
-      ['I play some sprots with my left hand, albeit being right handed.','I am currently learning guitar.','I am 19 years old.'];
+      ['I play some sports with my left hand, albeit being right handed.', 'I am currently learning guitar.', 'I am 19 years old.'];
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
