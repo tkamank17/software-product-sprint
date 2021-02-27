@@ -4,6 +4,27 @@
   width: 650px;
 }
 
+body {
+  background-image: url('images/warp.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
 #greeting-container {
   margin-top: 20px;
+}
+
+p {
+  color: white;
+}
+
+li {
+    color: white;
+}
+
+#background-gif {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
