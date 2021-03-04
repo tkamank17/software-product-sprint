@@ -4,6 +4,67 @@
   width: 650px;
 }
 
+body {
+  background-image: url('images/warp.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
 #greeting-container {
   margin-top: 20px;
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+li {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+#background-gif {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Menu Stylings */
+.logo {
+    color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 50px;
+    margin-top: 30px;
+}
+.header div {
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.header ul li a{
+    display: inline-block;
+    margin: 0 20px;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.logo {
+    font-family: 'Rubik', sans-serif;
+}
+
+.home-content {
+    margin-left: 50px;
+    display: inline-block;
 }
