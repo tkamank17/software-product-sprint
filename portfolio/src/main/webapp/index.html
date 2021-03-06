@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Tariq's Portfolio</title>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -41,6 +42,14 @@
       <p>Click here to get a random message:</p>
       <button onclick="addRandomGreeting()">Hello</button>
       <div id="greeting-container"></div>
+      <button onclick="showServerTime();">
+      Get date
+    </button>
+    <p id="date-container"></p>
+    <button onclick="generateRandomResponse();">
+      Generate Random Reponse
+    </button>
+    <p id="random-generator"></p>
     </div>
     </div>
   </body>

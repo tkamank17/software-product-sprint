@@ -1,6 +1,3 @@
-// Copyright 2019 Google LLC
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
@@ -12,25 +9,22 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+package com.google.sps.servlets;
+
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.*;
+import java.util.Date;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/** Servlet that returns HTML that contains the page view count. */
-@WebServlet("/random")
-public class PageServlet extends HttpServlet {
-String[] randomText = {"pineapple", "pear", "apricot", "durian"};
+/** Servlet that responds with the current date. */
+@WebServlet("/date")
+public class DateServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-     response.setContentType("text/html;");
-     Random random = new Random();
-        // generate random number from 0 to 3
-    int number = random.nextInt(4);
-    response.getWriter().println(randomText[number]);
+    response.setContentType("text/html;");
+    response.getWriter().println("The server's current date is " + new Date());
   }
 }
