@@ -39,6 +39,6 @@ async function generateRandomResponse() {
   const responseFromServer = await fetch('/random');
   const textFromResponse = await responseFromServer.text();
 
-  const dateContainer = document.getElementById('random-generator');
-  dateContainer.innerText = textFromResponse;
+  const rnContainer = document.getElementById('random-generator');
+  rnContainer.innerText = textFromResponse;
 }
