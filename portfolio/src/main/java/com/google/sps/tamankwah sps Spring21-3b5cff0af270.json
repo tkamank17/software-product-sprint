@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tamankwah-sps-spring21",
+  "private_key_id": "3b5cff0af270ee62e1431a884d3742b3cc64998a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdxbFLqU136T1G\n6vdEKQtQQkyJhxCXlSf0g55JPd83JNi2beEPMceVNv1Iobqb8hu6JvlqoX+sQoxC\nqLUuQEOjD5Jy7WlVh3cmOxKJgoncLgqgwnup4aVktGI1ePmdY0VaIhuw9yHyBrni\nVrU78crkHoO7NSSMpy2ymwVma0kgs1ne0MyfnRur3X8mr6n/fy7pe72xDz2no4iT\nr1yxGYHXzpIIS67mBLlR0wI/oP61WjbzZfUoknhhV4zcj5oIgBMMK8gJ8RKxmpek\njM9wUtUVBRLlBYfMwab6OFMgZbKamoC2P4pgkcZjbpyPFjHkUtxL1srridt+IRI/\nV9xsJJ43AgMBAAECggEAFY2hR93MGHqDhYGp3+Tfh8pW3F7YNG0K9UtZv1W1fboJ\n5PojyciaJFdLyLVXYeB0Szzxy9BeObEpqh2UCsp6svb4obyvLCECdPWS9bggjzS2\n/Pk0naOWzaga1oU9THP4UHTiZY2NVJv4nuQLhDHm7r0Ab/21jYV1J7YnybMUXWQM\nEg7lDOJ2Rz09wi/87Xl1qx1YVJHHOQ2kspKORKzLAABN8f+VUCxll9rcy5jYkgPp\n/8MUQU2vez+I6d3uQno8T74m0p6ISvBgroJ1+omUMi4+xl1CR4qUaGScWDVKhOoI\n3h80u8WJkGBi4dmvzdZ4JYr6OrDSwSkocUEjpVywwQKBgQDNESqOyw0HMvSSlJ/2\nanSRw4++oRwlegydK5RM43a5RD4h0ZLLYVzTRl+4Up5c7KDpm2iXIXqG5dr+vv7J\nX5FOVNgGVCbVrEI+T0OQv+38u0un3I6b0ooo31Ov55zRaKNa/zFT1BY3+qgtVEsy\nr3Ne2uHk4RFQ/LrHnchMHpN9VwKBgQDE9V37YnzU6roPGX0ZE6wUKuWUH8JDIXg3\ni7Kc/iEQGGbzR2fm/ChR5KoG+YQZiesGufMhVz5Z0qshOAxHgzQOobJxbOTyjJpi\nABKWlhmuAo7QjVa8Qpd0aZx5c5V50qWEsvbpzcEk1/L55xUt0/X+ZhZjbx6Sgx4h\n2DcnlAp6IQKBgQCA0aTLWLCRcigDIIwwDoW1v4S/+pMk07uyy9p4RnehQEZLlkxB\nqKLYMaAVuQi0VQ1sUmzsa2J99UyRtMd3Fqq/6zpdF2Xh2jkuzTojZv4IQlvvUfTf\n2+1gaZI3sSZowfPESQTipRtkBPi6qPYoG+E8mAFJdz0ag/iNRwe5EYgTNwKBgHZC\nNVnZOsbE4U5rqXdDHpFFaG9V2lhgYkRHtskYtVVqsXXlK/e+856oQ4bIjo6fBuUV\nBWzBa4iXO3VIp+bQWpNmdzQvhBA2aAPrsz2Dhou6sXF7S9bhzPpy5ybtRZTN6+AP\nbL3ZctziZNuz6j2IBS3osgymDZ8+5vq/Te6PrvLBAoGAB0mvmDRzszF92bOYRVQA\nAxIFo5PdtmB3sxL2syF2VEi7cSV+VgOM3oylIXs1qMRM2dCdLwtfV7mY0uWEXTqQ\nPbn8qe+QRb3d0gghfw3CIrIsKS9tlUTrq6eG0GpnDKr6htKneZ99x9j+az6NrUR6\nK78Qq+JGhsf8YgD1lcDlFqM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "translationservice@tamankwah-sps-spring21.iam.gserviceaccount.com",
+  "client_id": "106497365798434580004",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/translationservice%40tamankwah-sps-spring21.iam.gserviceaccount.com"
+}
