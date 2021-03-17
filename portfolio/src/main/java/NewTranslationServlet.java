@@ -30,7 +30,7 @@ public class NewTranslationServlet extends HttpServlet {
     // Get the request parameters.
     String translateText = request.getParameter("text");
     // Do the translation.
-    System.setProperty("GOOGLE_API_KEY", "AIzaSyDCN-h3ny4Prj16LeIGzuUSAoQ1CKc8lRY");
+    //System.setProperty("GOOGLE_API_KEY", "projects/508281361214/secrets/portfolioKey/versions/4");
     Translate translate = TranslateOptions.getDefaultInstance().getService();
     Translation translation =
         translate.translate(translateText, Translate.TranslateOption.targetLanguage("de"));
