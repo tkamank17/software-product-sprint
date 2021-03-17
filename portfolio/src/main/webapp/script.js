@@ -42,3 +42,17 @@ async function generateRandomResponse() {
   const rnContainer = document.getElementById('random-generator');
   rnContainer.innerText = textFromResponse;
 }
+
+async function changeSentence(){
+    const text = document.getElementById('translate');
+    const textWords = document.getElementById('translate').innerHTML;
+    const params = new URLSearchParams();
+    params.append('text', textWords);
+    fetch('/translate', {
+        method: 'POST',
+        body: params
+    }).then(response => response.text())
+        .then((res) => {
+          text.innerText = res;
+        })
+}
